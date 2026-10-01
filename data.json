@@ -1,0 +1,393 @@
+{
+ "meta": {
+  "titulo": "ETDH · Técnicos Laborales",
+  "sede": "UNIMINUTO Sede Tolima-Huila",
+  "fuente": "SAP UNIMINUTO · Histórico de Técnicos Laborales",
+  "generado": "2026-10-01"
+ },
+ "programas": [
+  {
+   "nombre": "Atención a la Primera Infancia",
+   "tipo": "Técnico laboral",
+   "nombres_sap": [
+    "Tl Atencion Primera",
+    "Tl Comp Ate Pri Inf"
+   ]
+  },
+  {
+   "nombre": "Auxiliar de Almacén y Bodega",
+   "tipo": "Técnico laboral",
+   "nombres_sap": [
+    "Tl Comp Aux Alm Y Bo"
+   ]
+  },
+  {
+   "nombre": "Auxiliar en Servicios Fro.",
+   "tipo": "Técnico laboral",
+   "nombres_sap": [
+    "Tl Aux Servicios Fro"
+   ]
+  },
+  {
+   "nombre": "Confección Industrial",
+   "tipo": "Técnico laboral",
+   "nombres_sap": [
+    "Tl Comp Conf Industr"
+   ]
+  },
+  {
+   "nombre": "Contable y Financiero",
+   "tipo": "Técnico laboral",
+   "nombres_sap": [
+    "Tl Comp Conta Fin"
+   ]
+  },
+  {
+   "nombre": "Diseño Gráfico",
+   "tipo": "Técnico laboral",
+   "nombres_sap": [
+    "Tl Diseño Gra"
+   ]
+  },
+  {
+   "nombre": "Gestión Administrativa",
+   "tipo": "Técnico laboral",
+   "nombres_sap": [
+    "Tl Comp Gest Adminis"
+   ]
+  },
+  {
+   "nombre": "Gestión Ambiental",
+   "tipo": "Técnico laboral",
+   "nombres_sap": [
+    "Tl Gest. Ambi"
+   ]
+  },
+  {
+   "nombre": "Gestión Turística",
+   "tipo": "Técnico laboral",
+   "nombres_sap": [
+    "Tl Gestion Turistica"
+   ]
+  },
+  {
+   "nombre": "Inglés Nivel A1",
+   "tipo": "Idiomas",
+   "nombres_sap": [
+    "Fa Ingles Nivel A1"
+   ]
+  },
+  {
+   "nombre": "Inglés Nivel B2",
+   "tipo": "Idiomas",
+   "nombres_sap": [
+    "Fa Ingles Nivel B2"
+   ]
+  },
+  {
+   "nombre": "Mantenimiento de Motocicletas",
+   "tipo": "Técnico laboral",
+   "nombres_sap": [
+    "Tl Compe Mant Motos"
+   ]
+  },
+  {
+   "nombre": "Mercadeo y Punto de Venta",
+   "tipo": "Técnico laboral",
+   "nombres_sap": [
+    "Tl Comp Mer P Vta"
+   ]
+  },
+  {
+   "nombre": "Seguridad y Salud en el Trabajo",
+   "tipo": "Técnico laboral",
+   "nombres_sap": [
+    "Tl Compe Seg Y Salud"
+   ]
+  }
+ ],
+ "registros": [
+  {
+   "anio": 2020,
+   "programa": "Atención a la Primera Infancia",
+   "ingresos": 13710934.96,
+   "estudiantes": 28
+  },
+  {
+   "anio": 2020,
+   "programa": "Auxiliar en Servicios Fro.",
+   "ingresos": 453050.0,
+   "estudiantes": 1
+  },
+  {
+   "anio": 2020,
+   "programa": "Contable y Financiero",
+   "ingresos": 39016650.0,
+   "estudiantes": 78
+  },
+  {
+   "anio": 2020,
+   "programa": "Gestión Administrativa",
+   "ingresos": 156586158.04,
+   "estudiantes": 318
+  },
+  {
+   "anio": 2020,
+   "programa": "Mantenimiento de Motocicletas",
+   "ingresos": 24911086.2,
+   "estudiantes": 49
+  },
+  {
+   "anio": 2020,
+   "programa": "Mercadeo y Punto de Venta",
+   "ingresos": 1172599.96,
+   "estudiantes": 4
+  },
+  {
+   "anio": 2021,
+   "programa": "Atención a la Primera Infancia",
+   "ingresos": 9546240.0,
+   "estudiantes": 20
+  },
+  {
+   "anio": 2021,
+   "programa": "Auxiliar de Almacén y Bodega",
+   "ingresos": 12041280.0,
+   "estudiantes": 24
+  },
+  {
+   "anio": 2021,
+   "programa": "Auxiliar en Servicios Fro.",
+   "ingresos": 14007480.0,
+   "estudiantes": 28
+  },
+  {
+   "anio": 2021,
+   "programa": "Contable y Financiero",
+   "ingresos": 33079620.0,
+   "estudiantes": 71
+  },
+  {
+   "anio": 2021,
+   "programa": "Gestión Administrativa",
+   "ingresos": 103116690.0,
+   "estudiantes": 224
+  },
+  {
+   "anio": 2021,
+   "programa": "Gestión Ambiental",
+   "ingresos": 11404140.0,
+   "estudiantes": 22
+  },
+  {
+   "anio": 2021,
+   "programa": "Gestión Turística",
+   "ingresos": 15892320.0,
+   "estudiantes": 32
+  },
+  {
+   "anio": 2021,
+   "programa": "Mantenimiento de Motocicletas",
+   "ingresos": 19068760.0,
+   "estudiantes": 41
+  },
+  {
+   "anio": 2021,
+   "programa": "Mercadeo y Punto de Venta",
+   "ingresos": 12543000.0,
+   "estudiantes": 25
+  },
+  {
+   "anio": 2022,
+   "programa": "Atención a la Primera Infancia",
+   "ingresos": 35141584.66,
+   "estudiantes": 64
+  },
+  {
+   "anio": 2022,
+   "programa": "Auxiliar de Almacén y Bodega",
+   "ingresos": 39136800.0,
+   "estudiantes": 69
+  },
+  {
+   "anio": 2022,
+   "programa": "Auxiliar en Servicios Fro.",
+   "ingresos": 11911200.0,
+   "estudiantes": 21
+  },
+  {
+   "anio": 2022,
+   "programa": "Contable y Financiero",
+   "ingresos": 36888804.34,
+   "estudiantes": 71
+  },
+  {
+   "anio": 2022,
+   "programa": "Gestión Administrativa",
+   "ingresos": 178065347.3,
+   "estudiantes": 331
+  },
+  {
+   "anio": 2022,
+   "programa": "Gestión Ambiental",
+   "ingresos": 9758556.0,
+   "estudiantes": 18
+  },
+  {
+   "anio": 2022,
+   "programa": "Gestión Turística",
+   "ingresos": 19738559.76,
+   "estudiantes": 36
+  },
+  {
+   "anio": 2022,
+   "programa": "Inglés Nivel B2",
+   "ingresos": 779100.0,
+   "estudiantes": 1
+  },
+  {
+   "anio": 2022,
+   "programa": "Mantenimiento de Motocicletas",
+   "ingresos": 25800509.48,
+   "estudiantes": 49
+  },
+  {
+   "anio": 2022,
+   "programa": "Mercadeo y Punto de Venta",
+   "ingresos": 11911200.0,
+   "estudiantes": 21
+  },
+  {
+   "anio": 2022,
+   "programa": "Seguridad y Salud en el Trabajo",
+   "ingresos": 29863079.64,
+   "estudiantes": 54
+  },
+  {
+   "anio": 2023,
+   "programa": "Atención a la Primera Infancia",
+   "ingresos": 40735999.84,
+   "estudiantes": 64
+  },
+  {
+   "anio": 2023,
+   "programa": "Auxiliar de Almacén y Bodega",
+   "ingresos": 28360000.0,
+   "estudiantes": 50
+  },
+  {
+   "anio": 2023,
+   "programa": "Contable y Financiero",
+   "ingresos": 33352599.92,
+   "estudiantes": 53
+  },
+  {
+   "anio": 2023,
+   "programa": "Gestión Administrativa",
+   "ingresos": 145799699.0,
+   "estudiantes": 233
+  },
+  {
+   "anio": 2023,
+   "programa": "Gestión Ambiental",
+   "ingresos": 7892399.92,
+   "estudiantes": 12
+  },
+  {
+   "anio": 2023,
+   "programa": "Gestión Turística",
+   "ingresos": 21666599.7,
+   "estudiantes": 36
+  },
+  {
+   "anio": 2023,
+   "programa": "Inglés Nivel B2",
+   "ingresos": 12240199.96,
+   "estudiantes": 14
+  },
+  {
+   "anio": 2023,
+   "programa": "Mantenimiento de Motocicletas",
+   "ingresos": 20367999.9,
+   "estudiantes": 32
+  },
+  {
+   "anio": 2023,
+   "programa": "Mercadeo y Punto de Venta",
+   "ingresos": 636500.0,
+   "estudiantes": 1
+  },
+  {
+   "anio": 2023,
+   "programa": "Seguridad y Salud en el Trabajo",
+   "ingresos": 62130968.9,
+   "estudiantes": 96
+  },
+  {
+   "anio": 2024,
+   "programa": "Atención a la Primera Infancia",
+   "ingresos": 11892800.0,
+   "estudiantes": 17
+  },
+  {
+   "anio": 2024,
+   "programa": "Diseño Gráfico",
+   "ingresos": 695600.0,
+   "estudiantes": 1
+  },
+  {
+   "anio": 2024,
+   "programa": "Gestión Administrativa",
+   "ingresos": 86836431.84,
+   "estudiantes": 125
+  },
+  {
+   "anio": 2024,
+   "programa": "Gestión Ambiental",
+   "ingresos": 3625100.0,
+   "estudiantes": 5
+  },
+  {
+   "anio": 2024,
+   "programa": "Gestión Turística",
+   "ingresos": 24414399.62,
+   "estudiantes": 35
+  },
+  {
+   "anio": 2024,
+   "programa": "Mantenimiento de Motocicletas",
+   "ingresos": 14668399.98,
+   "estudiantes": 21
+  },
+  {
+   "anio": 2024,
+   "programa": "Seguridad y Salud en el Trabajo",
+   "ingresos": 39240328.92,
+   "estudiantes": 55
+  },
+  {
+   "anio": 2025,
+   "programa": "Confección Industrial",
+   "ingresos": 77133600.0,
+   "estudiantes": 108
+  },
+  {
+   "anio": 2025,
+   "programa": "Gestión Administrativa",
+   "ingresos": 21186000.0,
+   "estudiantes": 29
+  },
+  {
+   "anio": 2025,
+   "programa": "Inglés Nivel A1",
+   "ingresos": 16758400.0,
+   "estudiantes": 67
+  },
+  {
+   "anio": 2025,
+   "programa": "Mantenimiento de Motocicletas",
+   "ingresos": 24881200.0,
+   "estudiantes": 34
+  }
+ ]
+}

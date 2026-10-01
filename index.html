@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tablero ETDH · Técnicos Laborales — UNIMINUTO Sede Tolima-Huila</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<aside class="sidebar" id="sidebar" aria-label="Filtros">
+  <div class="brand">
+    <span class="brand-mark">ETDH</span>
+    <div class="brand-txt"><strong>UNIMINUTO</strong><span>Sede Tolima-Huila</span></div>
+  </div>
+  <div class="side-scroll">
+    <div class="side-head">
+      <h2>Filtros</h2>
+      <button type="button" class="link-btn" id="resetAll">Restablecer</button>
+    </div>
+    <div id="filters"></div>
+  </div>
+  <div class="side-foot">Datos agregados por programa y año. No contiene información personal.</div>
+</aside>
+<div class="backdrop" id="backdrop"></div>
+
+<main class="main">
+  <header class="topbar">
+    <button type="button" class="menu-btn" id="menuBtn" aria-controls="sidebar">☰ Filtros</button>
+    <div class="title-block">
+      <p class="kicker">Educación para el Trabajo y el Desarrollo Humano</p>
+      <h1>Técnicos Laborales</h1>
+      <p class="sub">Histórico de estudiantes e ingresos por programa · Sede Tolima-Huila</p>
+    </div>
+    <div class="scope" id="scope"></div>
+  </header>
+
+  <div id="notice"></div>
+
+  <section class="kpis" id="kpis"></section>
+
+  <section class="grid g-2-1">
+    <article class="card">
+      <div class="card-head"><h3>Evolución anual</h3><p>Ingresos (barras) y estudiantes (línea)</p></div>
+      <div class="chart-box h-320"><canvas id="chEvol"></canvas></div>
+    </article>
+    <article class="card insights">
+      <div class="card-head"><h3>Lectura rápida</h3><p>Se recalcula con los filtros</p></div>
+      <ul id="insights"></ul>
+    </article>
+  </section>
+
+  <section class="grid g-1-1">
+    <article class="card">
+      <div class="card-head"><h3>Ingresos por programa</h3><p>Acumulado de los años seleccionados</p></div>
+      <div class="chart-box" id="boxProg"><canvas id="chProg"></canvas></div>
+    </article>
+    <article class="card">
+      <div class="card-head"><h3>Ingreso por estudiante</h3><p>Ingresos ÷ estudiantes, por año</p></div>
+      <div class="chart-box h-320"><canvas id="chTicket"></canvas></div>
+    </article>
+  </section>
+
+  <section class="card">
+    <div class="card-head row">
+      <div><h3>Oferta por programa y año</h3><p>Intensidad del color según el valor; las celdas vacías son años sin estudiantes</p></div>
+      <div class="seg" id="heatSeg" role="group" aria-label="Indicador del mapa">
+        <button type="button" data-m="est" class="on">Estudiantes</button>
+        <button type="button" data-m="ing">Ingresos</button>
+        <button type="button" data-m="tick">Ingreso por estudiante</button>
+      </div>
+    </div>
+    <div class="table-wrap"><table class="heat" id="heat"></table></div>
+  </section>
+
+  <section class="card">
+    <div class="card-head row">
+      <div><h3>Detalle por programa</h3><p>Haz clic en los encabezados para ordenar</p></div>
+      <button type="button" class="btn-ghost" id="btnCsv">Descargar CSV</button>
+    </div>
+    <div class="table-wrap"><table class="detail" id="detail"></table></div>
+  </section>
+
+  <footer class="foot" id="foot"></footer>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
